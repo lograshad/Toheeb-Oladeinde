@@ -1,2 +1,2 @@
-# Toheeb-Oladeinde
-Meet Toheeb Oladeinde, Creative Writer/Strategist..
+# Toheeb-Oladehinde
+Meet Toheeb, a creative strategist, copywriter and more!
