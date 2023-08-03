@@ -713,17 +713,18 @@ h5{
 .ux {
     position: absolute;
     right: 4rem;
-    font-size: 6em;
+    font-size: 5em;
     text-transform: uppercase;
     font-weight: 600;
     pointer-events: none;
-    color: black;
-    line-height: 4.5rem;
+    color: white;
+    line-height: 4rem;
+    letter-spacing: -5px;
 }
 
 .ux div:nth-child(1), .ux div:nth-child(3) {
     -webkit-text-stroke: 1.5px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: #007aff;
     color: transparent;
 }
 
@@ -734,6 +735,7 @@ h5{
 .portfolio-img-wrappers img {
     max-height: 100%;
     max-width: 100%;
+    border-radius: 30px;
 }
 
 .portfolio-img-wrappers .description {
@@ -765,7 +767,7 @@ h5{
     font-weight: 600;
     pointer-events: none;
     color: 	hsl(180, 89%, 20%);
-    line-height: 4.5rem;
+    line-height: 3.5rem;
 }
 
 .cp div:nth-child(1), .cp div:nth-child(3) {
