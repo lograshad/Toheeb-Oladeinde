@@ -994,7 +994,7 @@ h5{
 }
 
 .konga img {
-    /* transform: scale(1.5); */
+    transform: scale(1.1);
 }
 .konga .services-btn:hover::before,
 .konga .services-btn:focus::before{
