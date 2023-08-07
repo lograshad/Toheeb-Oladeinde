@@ -7,6 +7,26 @@
     box-sizing: border-box;
 }
 
+html.lenis {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
+
 body {
     /* font-family: 'Quicksand', sans-serif; */
     /* perspective: 800px; */
@@ -16,7 +36,6 @@ body {
     --content-load-time: 2000ms;
     background-color: #899499;
     color: white;
-    scroll-behavior: smooth;
     overflow-x: hidden;
     width: 100vw;
 }
@@ -26,7 +45,8 @@ body {
     width: 15px;
     height: 15px;
     background-color: #36454F;
-    transition: 0.12s;
+    transition: 0.5s;
+    transition-delay: -0.1s;
     pointer-events: none;
     z-index: 10;
     transform: translateX(-50%);

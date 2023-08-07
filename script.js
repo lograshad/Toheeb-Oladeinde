@@ -9,7 +9,18 @@ const gif = document.querySelector('.question-gif-wrapper');
 const cursors = document.querySelectorAll('.links');
 
 
+const lenis = new Lenis()
 
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf);
 
 const srcs2 = [
     {
